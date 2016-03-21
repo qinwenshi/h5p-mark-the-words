@@ -1,0 +1,37 @@
+{
+  "semantics": [
+    {
+      "label": "任务描述",
+      "description": "描述用户如何完成任务"
+    },
+    {
+      "label": "文本域",
+      "description": "标记词前会添加一个星号(*). 一个星号可能被另一个星号换码，结果为** = *。 Example: The correct words are marked with like this: *correctword*, and a character asterix is written like this: **."
+    },
+    {
+      "label": "显示在 \"确认\" 按钮上的文字"
+    },
+    {
+      "label": "显示在 \"重试\" 按钮上的文字"
+    },
+    {
+      "label": "显示在 \"查看答案\" 按钮上的文字"
+    },
+    {
+      "label": "反馈文本",
+      "description": "测试结果， 可选变量: @score @total @correct @wrong @missed 。比如: '总得分 : @score ，总分 @total, 答对: @correct, 答错: @wrong, 跳过: @missed.'"
+    },
+    {
+      "label": "动作设置。",
+      "description": "这些选项可以让您控制任务进行。",
+      "fields": [
+        {
+          "label": "有效 \"重试\""
+        },
+        {
+          "label": "有效 \"查看答案\" 按钮"
+        }
+      ]
+    }
+  ]
+}
